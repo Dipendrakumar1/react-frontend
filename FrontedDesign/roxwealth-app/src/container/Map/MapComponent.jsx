@@ -18,7 +18,7 @@ const ImageMarker = ({ lat, lng, imageUrl, imageAlt }) => (
 const MapComponent = ({ center, zoom, marker, width, height }) => (
   <div style={{ width, height }}>
     <GoogleMapReact
-      bootstrapURLKeys={{ key: "AIzaSyDQIZXHAlICpdwHe3JagClNukN101T4XrM" }}
+      bootstrapURLKeys={{ key: "google_api_key" }}
       defaultCenter={center}
       defaultZoom={zoom}
     >
